@@ -17,17 +17,6 @@ body{
 
 }
 
-img{
-    width: 250px;
-    height: auto;
-    border-radius: 50%;
-    transition: 0.5s;
-    cursor: pointer;
-}
-
-.box img:hover{
-    transform: scale(0.9);
-}
 
 .box h1{
     font-size: 40px;
