@@ -3,17 +3,20 @@ body {
     padding: 0;
     background: url(https://sankalpit.com/blog/wp-content/uploads/2022/06/Azure-service.png);
     background-size: cover;
+    background-position: center;
 }
 
 .box {
     width: 450px;
-    background-color: #6b5858;
+    background-color: rgba(107, 88, 88, 0.8); /* Şeffaf kutu arka planı */
     padding: 40px;
     text-align: center;
     margin: auto;
     margin-top: 5%;
-    color: #ffff;
+    color: #fff;
     font-family: sans-serif;
+    border-radius: 10px; /* Köşeleri yuvarla */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Hafif gölge efekti */
 }
 
 .box h1 {
@@ -22,10 +25,10 @@ body {
     font-weight: 100;
 }
 
-.box h5 {
-    font-size: 20px;
+.box p {
+    font-size: 18px;
     font-weight: 100;
-    letter-spacing: 4px;
+    margin-bottom: 20px;
 }
 
 ul {
@@ -43,8 +46,12 @@ ul {
     color: white;
     font-size: 60px;
     transition: all ease-in-out 250ms;
+    background-color: rgba(255, 255, 255, 0.2); /* Şeffaf arka plan */
+    border-radius: 50%; /* Simgeleri yuvarlak yap */
+    padding: 10px;
 }
 
 .box li a:hover {
     opacity: 0.6;
+    background-color: rgba(255, 255, 255, 0.3); /* Hover'da arka planı biraz daha şeffaf yap */
 }
